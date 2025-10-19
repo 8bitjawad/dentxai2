@@ -1,6 +1,7 @@
 # requirements.txt
 streamlit
-ultralytics
 opencv-python-headless
+ultralytics
 Pillow
 torch
+
