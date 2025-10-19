@@ -6,7 +6,7 @@ import os
 # Load your trained YOLO model
 @st.cache_resource
 def load_model():
-    model_path = "runs/detect/intraoral/weights/best.pt"
+    model_path = r"C:\Users\Abdullah\intraoral\runs\detect\intraoral\weights\best.pt"
     return YOLO(model_path)
 
 model = load_model()
