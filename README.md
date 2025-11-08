@@ -315,27 +315,15 @@ If LRP highlights a region but occlusion shows low sensitivity (or vice versa), 
 
 ### LRP Multi-Class Comparison
 
-**Low Severity Heatmap**
-<img width="800" alt="LRP Low Severity" src="https://github.com/user-attachments/assets/example-lrp-low.png" />
-*Weak activation pattern - model correctly identifies this is not a low-severity case.*
-
-**Moderate Severity Heatmap**
-<img width="800" alt="LRP Moderate Severity" src="https://github.com/user-attachments/assets/example-lrp-moderate.png" />
-*Strong, focused activation on the carious lesion - model confidently predicts moderate severity.*
-
-**Severe Severity Heatmap**
-<img width="800" alt="LRP Severe Severity" src="https://github.com/user-attachments/assets/example-lrp-severe.png" />
-*Minimal activation - model correctly rules out severe classification.*
+**Severity Heatmap**
+![WhatsApp Image 2025-11-09 at 00 07 14_513f97da](https://github.com/user-attachments/assets/63f84df8-35d2-470b-8ddd-24be845cc066)
+*Strong activation pattern - model correctly identifies this is a high-severity case.*
 
 ### Occlusion Multi-Class Sensitivity
 
 **Side-by-Side Comparison**
-<img width="1200" alt="Occlusion All Classes" src="https://github.com/user-attachments/assets/example-occlusion-comparison.png" />
+![WhatsApp Image 2025-11-09 at 00 13 38_5a043f11](https://github.com/user-attachments/assets/01cdb7b1-5fdb-4059-ae28-3b39e0b1c430)
 *Each severity class shows different sensitivity patterns. Moderate severity (center) has highest sensitivity at the lesion site, confirming correct classification.*
-
-**Combined RGB Heatmap**
-<img width="800" alt="Combined Occlusion Map" src="https://github.com/user-attachments/assets/example-combined-rgb.png" />
-*RGB composite where Red=Low, Green=Moderate, Blue=Severe. Green dominance at the lesion validates moderate severity prediction.*
 
 ---
 
